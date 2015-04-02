@@ -1,0 +1,37 @@
+<br /><br />
+    <div class="center pad"> <!--row1-->
+        <p class="addressTitle">Please enter your information for prize delivery</p>
+        <br />
+    	
+        	<!--row2-->
+            	<form id="update_form" method="post" name="update_form" action="#" class="large-7 large-centered medium-8 medium-centered small-10 small-centered columns">
+                	<input class="input_field shadow" type="text" placeholder="Name" />
+                    <p class="required popup">Required field.</p>
+                    <input class="input_field shadow" type="text" placeholder="Address Line 1" />
+                    <p class="required popup">Required field.</p>
+                    <input class="input_field shadow" type="text" placeholder="Address Line 2" />
+                    <p class="required popup"></p>
+                    <input class="input_field shadow" type="text" placeholder="City" />
+                    <p class="required popup">Required field.</p>
+                    <div>
+                    <input class="input_field_small shadow" type="text" placeholder="State" />
+                    <input class="input_field_small shadow" type="text" placeholder="Zip Code" />
+                    <p class="required popup inline">Required field.</p>
+                    <p class="required popup inline">Required field.</p>
+                    <br />
+                     <a class="btnTop" href="#">
+                        <img class="shadow" src="img/popupAssets/addressSubmitBtn.jpg">
+                    </a>
+                    <br />
+                	<a class="btm_text" href="#">cancel</a>
+
+                    <br />
+                </form>
+    <!-- Close Popup -->
+    	<script>
+        	$('.btm_text, .popBoxImg').on('click', function(){
+            	$('.overlay').fadeOut();
+        	});
+    	</script>  
+    </div> <!--pad-->
+<img class="popBoxImg" src="img/closeX.png" />

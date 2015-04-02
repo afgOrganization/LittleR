@@ -1,0 +1,36 @@
+<br />
+    <div class="center pad"> <!--row1-->
+    	
+        	<!--row2-->
+            	<form id="update_form" method="post" name="update_form" action="#" class="large-7 large-centered medium-9 medium-centered small-10 small-centered columns">
+                	<input class="input_field shadow" type="text" placeholder="First Name" />
+                    <p class="required popup">Required field.</p>
+                    <input class="input_field shadow" type="text" placeholder="Last Name" />
+                    <p class="required popup">Required field.</p>
+                    <input class="input_field shadow" type="password" placeholder="New Password" />
+                    <p class="required popup">Required field.</p>
+                    <input class="input_field shadow" type="password" placeholder="Confirm Password" />
+                    <p class="required popup">Required field.</p>
+                    <br /><br />
+                     <a href="#">
+                           <img class="min-alt" src="img/popupAssets/updateInfoBtn.jpg">
+                    </a>
+                    <br />
+                	<a class="btm_text" href="#">cancel</a>
+
+                    <br />
+
+                </form>
+
+                <img class="popBoxImg" src="img/closeX.png" />
+
+    <!-- Close Popup -->
+
+    <script>
+        $('.btm_text, .popBoxImg').on('click', function(){
+            $('.overlay').fadeOut();
+        });
+    </script>
+            
+       
+    </div> <!--pad-->

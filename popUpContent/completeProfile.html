@@ -1,0 +1,72 @@
+
+	 
+    <div class="thankyou row pad">
+    	<div id="wrapper3" class="small-11 small-centered medium-8 medium-centered large-7 large-centered columns">
+    		<form id="profile_form" name="profile_form" method="post" action="#">
+            	<div class="row">
+        			<p>Fill out the following to complete your profile</p>
+            	</div> <!--row-->
+                <br />
+        		<div class="row">
+            		<div class="large-5 medium-6 columns">
+            			<input id="zipcode" type="text" name="zipcode" placeholder="Zip Code"/>
+                	</div>
+           		</div>
+                <br />
+            	<p>Question 1 - choose one</p>
+            	<div class="radio_btns">
+            		<input type="radio" name="q1" value="a" checked/>Choice A<br />
+                	<input type="radio" name="q1" value="b" />Choice B<br />
+                </div>
+            	<div class="radio_btns">
+            		<input type="radio" name="q1" value="c" />Choice C<br />
+                	<input type="radio" name="q1" value="d" />Choice D<br />
+                </div>
+                <br />
+            	<p>Question 2 - choose one</p>
+            	<div class="radio_btns">
+            		<input type="radio" name="q2" value="a" checked/>Choice A<br />
+                	<input type="radio" name="q2" value="b" />Choice B<br />
+            	</div>
+            	<div class="radio_btns">
+            		<input type="radio" name="q2" value="c" />Choice C<br />
+                	<input type="radio" name="q2" value="d" />Choice D<br />
+            	</div>
+                <br />
+            	<p>Question 3 - choose one</p>
+            	<div class="radio_btns">
+            		<input type="checkbox" name="q3" value="a" checked/>Choice A<br />
+                	<input type="checkbox" name="q3" value="b" />Choice B<br />
+            	</div>
+            	<div class="radio_btns">
+            		<input type="checkbox" name="q3" value="c" />Choice C<br />
+                	<input type="checkbox" name="q3" value="d" />Choice D<br />
+            	</div>
+                <br />
+            	<p>Question 4 - choose one</p>
+            	<div class="radio_btns">
+            		<input type="checkbox" name="q3" value="a" checked/>Choice A<br />
+                	<input type="checkbox" name="q3" value="b" />Choice B<br />
+            	</div>
+            	<div class="radio_btns">
+            		<input type="checkbox" name="q3" value="c" />Choice C<br />
+                	<input type="checkbox" name="q3" value="d" />Choice D<br />
+            	</div>
+
+                <!-- Use Submit button with image -->
+                <a class="cpBtn" href="#">
+                    <img class="closeWindow" src="img/popupAssets/completeProfileBtn.jpg" />
+                </a>
+
+        	</form>
+            </div> <!--row-->
+    	</div>
+    </div>
+
+    <img class="popBoxImg" src="img/closeX.png" />
+
+    <script>
+        $('.btm_p, .popBoxImg, .closeWindow').on('click', function(){
+            $('.overlay').fadeOut();
+        });
+    </script>

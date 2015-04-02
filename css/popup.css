@@ -1,0 +1,290 @@
+.overlay {
+	background: rgba(0, 0, 0, 0.7);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	display: none;
+}
+.popBox {
+	position: relative;
+	max-width: 600px;
+	max-height: 85%;
+	background: #fff;
+	min-height: 10%;
+	margin: 0 auto;
+	margin-top: 5%;
+	overflow: auto;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+
+}
+.pad {
+	padding: 25px;
+}
+
+/*mobile popup styles*/
+@media only screen and (max-width: 670px){
+
+.popBox {
+	max-width: 600px;
+	background: #fff;
+	min-height: 100%;
+	max-height: 100%;
+	margin: 0 auto;
+	margin-top: 0;
+	overflow: auto;
+
+	}
+
+}
+
+.popBox a {
+	color: #bbb;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.center {
+	text-align: center;
+}
+.popBoxImg {
+		position: absolute;
+		top: 5px;
+		right: 5px;
+		width: 48px;
+		cursor: pointer;
+}
+/* Registration.html Styles */
+
+.fb_button {
+    width: 209px;
+    margin-top: 20px;
+    background: url(../img/facebook_register.jpg) no-repeat;
+    color: white;
+    border: none;
+    font-size: 0.8em;
+}
+#wrapper {
+	text-align: center;
+}
+#fb_register {
+    text-align: center; 
+    background: #86c3f3;
+}
+.fb_terms {
+	font-size: .8em; 
+	color: #fff;
+}
+#wrapper input[type="text"], #wrapper input[type="email"], #wrapper input[type="password"] {
+	box-shadow: 0px 2px 3px #888888;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+#register_form {
+	font-size: .8em;
+}
+.input_field {
+	margin: 0 0 0 0;
+	border-radius: 25px !important;
+}
+input [type="text"] {
+	border-radius: 25px !important;
+	}
+#zipcode {
+	border-radius: 25px !important;
+	}
+.captcha_btn {
+	/*background: #054c80;*/
+	background: #ccc;
+	color: white;
+	padding: 10px 0 10px 0;
+	font-family: sans-serif;
+	font-weight: 200;
+	margin-bottom: 30px;
+	width: 150px;
+	margin: 10px auto 10px auto;
+}
+.registrationFormWrap {
+	max-width: 70%; 
+	margin: 0 auto;
+}
+#register {
+	height: 37px;
+	width: 209px;
+	margin: 10px auto;
+	background: url(../img/email_register.jpg) no-repeat;
+	color: white;
+	border: none;
+	font-size: 0.8em;
+}
+.user_agreement {
+	padding: 10px 0;
+}
+.dBlock {
+	display: block;
+	width: 100%;
+}
+
+/* Registration Thankyou.html Styles */
+
+.thankYou {
+	cursor: pointer;
+	width: 200px;
+}
+h2.thanks {
+	font-family: Colette;
+	margin-bottom: 10px;
+}
+
+
+/* Complete Profile */
+.completeProfile {
+	cursor: pointer;
+	width: 211px;
+}
+.radio_btns {
+	float: left;
+	width: 50%;
+}
+#wrapper3 p {
+	display: block;
+	/*margin-top: 30px;*/
+	font-size: 1em;
+	color: #000;
+	font-weight: bold;
+}
+.cpBtn {
+	display: block;
+	margin-top: 70px;
+	clear: left;
+}
+
+/*Product Details*/
+.productWrap {
+	max-width: 90%;
+	margin: 0 auto;
+	text-align: left; 
+}
+.thanks h2.congrats {
+	font-family: Colette;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #149cd8;
+
+}
+.productWrap h2 {
+	font-family: Colette;
+	font-weight: bold;
+	color: #149cd8;
+}
+.productWrap h3 {
+	background: #86c3f3;
+	border: 3px solid #86c3f3;
+	border-radius: 5px;
+	font-family: Colette;
+	font-size: 1em;
+	color: white;
+	margin-top: 5px;
+	padding: 3px 5px 5px 5px;
+	text-align: center;
+	width: 150px;
+}
+.productWrap p {
+	margin-top: 10px;
+}
+.redeem-information {
+	display: inline-block;
+	width: 60%;
+	float: right;
+	}
+.redeem-product-image {
+	cursor: pointer;
+	display: inline-block;
+	float: left;
+	width: 35%;
+}
+
+/* Update Info Pop Up */
+h2.congrats, h2.thanks {
+	font-family: Colette;
+	font-size: 1.6em;
+	line-height: .9em;
+	font-weight: bold;
+	color: #149cd8;
+}
+p.congrats {
+	font-family: Colette;
+	font-size: 1em;
+	font-weight: bold;
+	color: #149cd8;
+}
+p.min {
+	color: grey;
+	display: inline-block;
+	font-size: 0.75em;
+	
+}
+.share-social {
+	text-align: center;
+}
+.share-social-redeem {
+	text-align: left;
+}
+.img-min {
+ 	width: 5%;
+}
+img.min-alt {
+	width: 60%;
+}
+#icons.congrats {
+	display: inline-block;
+	width: 41%;
+	text-align: left;
+}
+
+/* Address Popup */
+.input_field_small {
+	float: left; 
+	width: 100px!important;
+	margin-right: 30px!important;
+}
+.btnTop {
+	clear: left;
+	margin-top: 70px;
+	display: block;
+}
+/* PopUp Buttons */
+.popTxt {
+	font-size: 1.6em;
+	margin-bottom: 5px;
+	line-height: 1em;
+}
+.popupBtn {
+	height: 40px;
+	margin-right: 15px;
+}
+@media screen and (max-width: 640px) {
+	.redeem-product-image, .redeem-information {
+		display: block;
+		float: none;
+		margin: 0 auto;
+	}
+	.redeem-product-image {
+		width: 65%;
+	}
+	.redeem-information {
+		width: 100%;
+		text-align: center;
+	}
+	h3.productPoints {
+		margin: 0 auto !important;
+	}
+}
+
+
+
+
+

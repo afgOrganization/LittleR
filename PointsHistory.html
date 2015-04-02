@@ -1,0 +1,150 @@
+ <!doctype html>
+<html class="no-js" lang="en">
+<head> <!--head-->
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Little Remedies | Point History</title>
+
+    <!-- Roboto Font -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,400italic,300,300italic,500,500italic,700italic,900,900italic,100italic,100'
+    	rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/popup.css">
+    <link rel="stylesheet" href="css/globalStyles.css"
+</head> <!--head-->
+
+<body>
+	<div class="overlay">
+    	<div class="popBox"></div> <!--I assume that this div is for the image shadowbox-->
+    </div> <!--overlay-->
+    
+     <div class="row full">
+    	<div class="columns large-12 large-centered small-12 full-desktop full full-mobile">
+        	<ul class="nav-list full">
+            	<a href="Homepage.html">Rewards Home</a>
+                <a href="HowItWorks.html">How It Works</a>
+                <a href="SubmitReceipt.html">Upload Receipts</a>
+                <a href="EarnPoints.html">Earn Points</a>
+                <a href="RedeemRewards.html">Redeem Rewards</a>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="row page-wraper">
+    	<div id="main-wrap" class="columns large-11 large-centered clearfix full full-mobile">
+    	<div id="profile-wraper" class="columns large-3 small-12 full full-mobile">
+        	<div class="profile-basics desktop clearfix">
+            	<img class="avatar" src="img/avatar.jpg">
+                <div id="profile-options">
+                	<a href="YourProfile.html">View Profile</a>
+                	<a href="HomePage-Logout.html">Logout</a>
+            	</div>
+            </div> <!--profile-basics desktop-->
+            <div class="profile-basics mobile">
+            	<div class="img-wrap">
+            		<img class="avatar" src="img/avatar.jpg">
+                </div>
+                <a href="YourProfile.html">View Profile</a>
+            </div>
+            <div id="profile-info" class="clearfix">
+            	<div id="left-side">
+            		<div id="welcome" class="wrapper">
+                		<p>Welcome Jessica!<br>
+						You have 3,141 points.</p>
+                	</div> <!--row-->
+                	<a href="HomePage-Logout.html" class="mobile">Logout</a>
+                	<div id="point-history" class="wrapper clearfix">
+                		<a class="left" href="PointsHistory.html">Point History</a>
+                    	<text id="divider">|</text>
+                    	<a class="right" href="Leaderboard.html">Leaderboard</a>
+                	</div>
+                </div>
+                <div id="right-side">
+                	<div id="earn-more" class="wrapper">
+                		<a href="EarnPoints.html">EARN MORE NOW</a>
+                	</div>
+                	<div id="redeem-now" class="wrapper">
+                		<a href="RedeemRewards.html">REDEEM NOW</a>
+                	</div>
+                	<div id="profile-image" class="wrapper">
+                		<img class="signUpNow" src="img/profile-image.jpg">
+                	</div>
+                	<div id="social-icons" class="wrapper">
+                		<text>Share This Page:</text>
+                        <div id="icons">
+                    		<img src="img/facebook_icon.png">
+                    		<img src="img/twitter_icon.png">
+                    		<img src="img/pinterest_icon.png">
+                		</div> <!--icons-->
+                    </div> <!--social icons-->
+                </div> <!--right-side-->
+                <div class="logout-tablet">
+                	<a href="HomePage-Logout.html">Logout</a>
+                </div>
+            </div> <!--profile-info-->
+        </div> <!--profile-wrapper-->
+        
+        <div id="content-wraper" class="columns large-9 end">
+        	<div class="row">
+            	<div id="content" class="columns large-11 large-centered">
+                	<h1 id="ph-header">Points History</h1><br>
+                    <ul class="heading">
+                    	<li class="ph-date">Date</li>
+                    	<li class="ph-user">Activity</li>
+                        <li class="ph-points">Points</li>
+                    </ul>
+                	<table>
+                   		<tr>
+                        	<td class="date">8/29/14</td>
+                            <td class="activity">Receipt Scan</td>
+                            <td class="p-points">500</td>
+                        </tr> 
+                        <tr>
+                        	<td class="date">9/3/14</td>
+                            <td class="activity">Tweet</td>
+                            <td class="p-points">50</td>
+                        </tr> 
+                        <tr>
+                        	<td class="date">9/15/14</td>
+                            <td class="activity">Receipt Scan</td>
+                            <td class="p-points">500</td>
+                        </tr>
+                        <tr>
+                        	<td class="date">9/30/14</td>
+                            <td class="activity">Receipt Scan</td>
+                            <td class="p-points">500</td>
+                        </tr> 
+                        <tr>
+                        	<td class="date">10/15/14</td>
+                            <td class="activity">Sign Up for the Little Remedies Newsletter</td>
+                            <td class="p-points">300</td>
+                        </tr>
+                        <tr class="redeem-points">
+                        	<td class="date">10/15/14</td>
+                            <td class="activity">Redeem Points</td>
+                            <td class="p-points">-2,000</td>
+                        </tr>  
+                    </table>
+            	</div> <!--content-->
+            </div> <!--row 1-->
+        </div> <!--content-wraper-->
+    </div> <!--page-wraper-->
+    
+    <div class="row">
+        <div class="foot-links">
+            <a href="PrivacyPolicy.html">Privacy Policy</a>
+            <span>|</span>
+            <a href="TermsandConditions.html">Terms & Conditions</a>
+            <span>|</span>
+            <a href="Rules&Regulations.html">Rules & Regulations</a>
+        </div>
+    </div> <!--row 3-->
+    
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/modernizr.js" <type="text/javascript"></script>
+    <script src="js/popup.js" type="text/javascript"></script>
+</body>
+
+</html>

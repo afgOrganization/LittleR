@@ -1,0 +1,1235 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	font-family: Colette;
+	overflow-x: hidden;
+	}
+.clearfix {
+	overflow: auto;
+	}
+.wrapper {
+	margin: 0 auto;
+	width: 90%;
+	}
+@font-face {
+	font-family: Colette;
+	src: url(../fonts/Colette-Light.otf) format("opentype");
+	}
+@font-face {
+	font-family: Colette;
+	font-weight: bold;
+	src: url(../fonts/Colette-Bold.otf) format("opentype");
+	}
+img {
+	width: 100%;
+	}
+.popBox img {
+	width: auto;
+}
+img.mobile {
+	display: none;
+	}
+#main-wrap {
+	margin-top: 10px;
+	overflow: hidden;
+	}
+.m-top {
+	margin-top: 15px !important;
+	}
+bold, strong {
+	font-family: Colette;
+	font-weight: bold;
+	}
+.large {
+	font-size: 22px;
+	}
+.masthead {
+	text-align: center;
+	}
+.border-r {
+	border-right: 1px solid #ddd;
+	}
+.foot-links a {
+	color: #139cd8;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	}
+@media screen and (max-width: 640px) {
+	.border-r {
+		border-right: none;
+		}
+	.border-b {
+		border-bottom: 1px solid #ddd;
+		}
+	}
+.breaker {
+	display: none;
+	}
+@media screen and (min-width: 800px) and (max-width: 1064px) {
+	.breaker {
+		display: none;
+		}
+	}
+/*-------HERO BUTTON------*/
+.hero-btn {
+	background: #273387;
+	border: 10px solid #273387;
+	border-radius: 25px;
+	bottom: 75px;
+	left: 60px;
+	padding: 0px 20px;
+	position: absolute;
+	}
+.hero-btn a {
+	color: white;
+	text-decoration: none;
+	}
+.required {
+	color: red;
+	font-size: 0.7em;
+	font-weight: bold;
+	}
+.required.popup {
+	margin-bottom: 15px;
+	}
+.required.popup.inline {
+	display: inline;
+	float: left;
+	margin-right: 50px;
+	}	
+/*-------NAVIGATION------*/
+.nav-list {
+	margin-top: 10px;
+	text-align: center;
+	}
+.nav-list a {
+	color: #149cd8;
+	border: 2px solid #ffffff;
+	padding: 2px 10px 3px 10px;
+	font-size: 14px;
+	font-weight: bold;
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 2.5%;
+	text-decoration: none;
+	}
+@media screen and (max-width: 800px) {
+	.nav-list a {
+		font-size: 11.5px;
+		}
+	}
+@media screen and (min-width: 800px) {
+		.nav-list a:hover {
+		color: #86c3f3;
+		border: 2px solid #c5c5c5;
+		border-radius: 25px;
+		padding: 2px 10px 3px 10px;
+		}
+	}
+.current {
+	border: 2px solid #c5c5c5;
+	border-radius: 25px;
+	padding: 2px 10px 3px 10px;
+	}
+/*-------PROFILE WRAPER------*/
+#profile-wraper {
+	float: right;
+	overflow: hidden;
+	}
+.profile-basics {
+	background: #139cd8;
+	}
+.profile-basics.mobile {
+	display: none;
+	}
+#profile-info {
+	background: #86c3f3;
+	color: white;
+	}
+#profile-options {
+	display: inline-block;
+	width: 70%;
+	}
+#profile-options a {
+	color: white;
+	margin-right: 15px;
+	text-decoration: none;
+	}
+.avatar {
+	height: 55px;
+	margin: 10px;
+	width: 55px;
+	}
+#earn-more, #redeem-now {
+	text-align: center;
+	}
+#point-history {
+	overflow: hidden;
+	}
+#point-history, #earn-more, #redeem-now, #profile-image, #social-icons {
+	margin-bottom: 15px;
+	margin-top: 15px;
+	}
+#point-history a, #earn-more, #redeem-now {
+	background: #139cd8;
+	border: 3px solid #139cd8;
+	border-radius: 5px;
+	color: white;
+	font-size: 14px;
+	padding: 5px;
+	text-decoration: none;
+	}
+#earn-more a, #redeem-now a {
+	color: white;
+	text-decoration: none;
+	}
+#point-history.left {
+	margin-right: 5%;
+	width: 45%;
+	}
+#point-history.right {
+	margin-left: 5%;
+	width: 45%;
+	}
+#prof-image {
+	text-align: center;
+	margin-top: 0px !important;
+	width: 100%;
+	}
+.info {
+	position: absolute;
+	padding-left: 45px;
+	right: 0;
+	bottom: 0;
+	margin-top: 20px;
+	}
+@media screen and (min-width: 641px) and (max-width: 800px) {
+	.profile {
+		width: 50% !important;
+		}
+	.info {
+		width: 50% !important;
+		right: 0;
+		bottom: 0;
+		}
+	.update-information {
+		width: 80% !important;
+		}
+	}
+@media screen and (max-width: 640px) {
+	.info {
+		position: relative;
+		padding-left: 15px !important;
+		}
+	.profile {
+		padding-right: 15px !important;
+		}
+	#prof-image {
+		width: 50%;
+		}
+	.profile-information {
+		margin-bottom: 0px !important;
+		text-align: center;
+		}
+	.change-profile {
+		width: 80% !important;
+		}
+	.update-information {
+		margin-bottom: 20px !important;
+		margin-top: 20px !important;
+		width: 80% !important;
+		}
+	}
+#welcome {
+	margin-top: 10px;
+	}
+.logout-tablet {
+	display: none;
+	}
+#content-wraper div.columns {
+	margin-bottom: 15px;
+	}
+/*-------LOGGED OUT------*/
+#welcome-message {
+	padding-top: 15px;
+	text-align: center;
+	}
+#profile-info.login {
+	width: 100%;
+	}
+.login-form {
+	margin-top: 15px;
+	text-align: center;
+	}
+@media screen and (min-width: 641px) and (max-width: 800px) {
+	#right-side.login {
+		float: right;
+		margin-right: 10%;
+		}
+	#left-side.login {
+		margin-left: 20px;
+		}
+	.login-form {
+		margin-top: 0px;
+		margin-bottom: 10px;
+		}
+	}
+@media screen and (max-width: 640px) {
+	.login-form {
+		margin-bottom: 10px;
+		}
+	#left-side.login {
+		display: inline-block;
+		float: left;
+		width: 45%;
+		}
+	#right-side.login {
+		display: inline-block;
+		float: right;
+		width: 45%;
+		}
+
+	}
+#email-label, #password-label {
+	color: white;
+	float: left;
+	margin-left: 10px;
+	}
+#email, #password {
+	border-radius: 25px;
+	margin: 0 auto;
+	width: 80% !important;
+	}
+/*-------START EARNING------*/
+#start-earning {
+	margin-top: 0px;
+	}
+/*----------CONTENT---------*/
+#content {
+	margin-top: 20px;
+	}
+#upload-button {
+	text-align: center;
+	}
+/*------HEADINGS------------*/
+h1 {
+	color: #149cd8;
+	font-weight: bold;
+	font-size: 20px;
+	}
+h3 {
+	color: #149cd8;
+	font-family: Colette;
+	font-weight: bold;
+	}
+/*------LEADERBOARD------------*/
+.heading {
+	background: #149cd8;
+	border: 3px solid #149cd8;
+	border-radius: 5px;
+	margin-top: 20px;
+	width: 100%;
+	}
+.heading li, .board li {
+	display: inline-block;
+	text-align: center;
+	}
+.heading li {
+	color: white;
+	}
+.board ul {
+	border-bottom: 1px solid #909090;
+	padding: 5px 0px;
+	}
+li.user {
+	width: 60% !important;
+	}
+li.totalpoints {
+	margin-left: 10px;
+	width: 30% !important;
+	}
+li.rank {
+	color: #909090;
+	width: 20%;
+	text-align: right;
+}
+li.name {
+	color: #909090;
+	margin-left: 15px;
+	width: 50%;
+	text-align: left;
+}
+li.lb-points {
+	color: #909090;
+}
+.small {
+	width: 25px;
+	}
+.bullets {
+	text-align: center;
+	}
+.position {
+	background: #fdb930;
+	border: 3px solid #fdb930;
+	border-radius: 5px;
+	width: 100%;
+	}
+.position li {
+	color: white!important;
+}	
+.no-border {
+	border-bottom: none !important;
+	}
+.pic {
+	margin-left: 20px;
+	width: 20%;
+}
+/*---------POINT HISTORY----------*/
+table {
+	color: #909090;
+	width: 100%;
+}
+tr {
+	border-bottom: 1px solid #909090;
+}
+#ph-header {
+	font-size: 22px !important;	
+}
+.ph-date {
+	color: white;
+	float: left;
+	margin-left: 40px;
+}
+.date {
+	float: left;
+	margin-left: 30px;
+	margin-right: 100px;
+}
+.ph-user {
+	color: white;
+	margin-left: 120px;
+}
+.activity {
+	width: 66%;
+	margin-left: 120px;
+	text-align: left;
+}
+.ph-points {
+	color: white;
+	float: right;
+	margin-right:38px;
+}
+.p-points {
+	float: right;
+	margin-right: 43px;
+}
+.redeem-points {
+	color: #149cd8 !important;
+}
+@media screen and (max-width:640px) {
+	.activity {
+		width: 50%;
+	}
+	.ph-user {
+		margin-left: 17%;
+	}
+	.date {
+		margin-right: 50px;
+	}
+}
+@media screen and (min-width:641px) and (max-width:1070px) {
+	.activity {
+		width: 60%;
+	}
+}
+/*------REDEEM POINTS------*/
+.redeem {
+	color: #149cd8;
+	font-weight: bold;
+	}
+/*------YOUR PROFILE------*/
+.profile {
+	text-align: center;
+	padding-right: 45px;
+	}
+#profile-avatar {
+	width: 100%
+	}
+#social-icons {
+	margin-bottom: 5px;
+	padding-left: 10px;
+	}
+#social-icons text {
+	font-size: 14px;
+	}
+#social-icons img {
+	margin-bottom: 15px;
+	width: 30%;
+	}
+#icons {
+	display: inline-block;
+	width: 41%;
+	}
+.left, .right {
+	text-align: center;
+	width: 48%;
+	}
+.change-profile {
+	background: #149cd8;
+	border: 3px solid #149cd8;
+	border-radius: 25px;
+	color: white;
+	margin: 0 auto !important;
+	padding: 5px 20px;
+	text-decoration: none;
+	width: 100%;
+	}
+.change-profile a {
+	color: white;
+	font-size: 14px;
+	width: 95%;
+	text-decoration: none;
+	}
+.update-information {
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 50px;
+	background: #149cd8;
+	border: 3px solid #149cd8;
+	border-radius: 25px;
+	padding: 5px 20px;
+	width: 50%;
+	}
+.update-information a {
+	color: white;
+	font-size: 14px;
+	width: 95%;
+	text-decoration: none;
+	}
+.profile-information {
+	margin-bottom: 100px;
+	}
+/*------EARN POINTS------*/
+.twitter-icon {
+	width: 24px;
+	margin-left: 5px;
+	}
+.pintrest-icon {
+	width: 24px;
+	margin-left: 5px;
+	}
+/*------FOOTER LINKS------*/
+.foot-links {
+	font-family: Colette;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	}
+@media screen and (min-width: 641px) and (max-width: 800px) {
+	.foot-links {
+		margin-top: 20px;
+		}
+	}
+/*------IMAGES & BUTTONS------*/
+.points {
+	background-color: #7ec0f3;
+	border: 3px solid #7ec0f3;
+	border-radius: 5px;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 14px;
+	padding-bottom: 5px;
+	padding-top: 2px;
+	position: absolute;
+	text-align: center; 
+	width: 33%;
+	max-width: 100px;
+	}
+img.desktop {
+	margin-bottom: 5px;
+	}
+.product-cta {
+	color: #139cd8;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	}
+.product-buttons {
+	margin-top: 5px;
+	text-align: center;
+	}
+.redeem, .learn-more {
+	background: #139cd8;
+	border: 3px solid #139cd8;
+	border-radius: 25px;
+	color: white;
+	font-weight: 300;
+	font-size: 13px;
+	margin: 0 5px;
+	padding: 0px 25px 5px 25px;
+	text-decoration: none;
+	}
+.learn-more {
+	background: #86c3f3;
+	border: 3px solid #86c3f3;
+	padding: 0px 15px 5px 15px;
+	}
+/*------RANDOM CONTAINERS------*/
+.desktop.write-review {
+	margin-bottom: 0px;
+	}
+.mobile.write-review {
+	width: 100% !important;
+	}
+#write-review {
+	background: #ef5e31;
+	}
+#write-review div.product-buttons {
+	padding-bottom: 10px;
+	}
+#write-review div.product-buttons a{
+	display: block;
+	margin: 0 auto;
+	width: 30%;
+	}
+#write-review p {
+	color: white;
+	}
+#write-review .redeem {
+	background: #c61a2d;
+	border: 3px solid #c61a2d;
+	}
+#submit-receipt p {
+	color: #51b847;
+	}
+#submit-receipt .redeem {
+	background: #51b847;
+	border: 3px solid #51b847;
+	}
+#symptoms p {
+	color: #fdb930;
+	}
+#symptoms .redeem {
+	background: #fdb930;
+	border: 3px solid #fdb930;
+	}
+#friend-refer p {
+	color: #3460a1;
+	}
+#friend-refer .redeem {
+	background: #3460a1;
+	border: 3px solid #3460a1;
+	}
+#sign-up {
+	background: #51b847;
+	}
+#sign-up div.product-buttons {
+	padding-bottom: 10px;
+	}
+.desktop.sign-up {
+	margin-bottom: 0px;
+	}
+.mobile.sign-up {
+	width: 100%;
+	}
+#sign-up div.product-buttons a {
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+	}
+#sign-up .redeem {
+	background: #066334;
+	border: 3px solid #066334;
+	}
+#sign-up p {
+	color: white;
+	}
+#friends-share .redeem {
+	padding: 0px 15px 5px 15px;
+	border: 3px solid #139cd8;
+	}
+#friends-share .learn-more {
+	background: #ef2f44;
+	border: 3px solid #ef2f44;
+	}
+#invite-friends {
+	background: #86c3f3;
+	}
+#invite-friends p {
+	color: white;
+	}
+#complete-now div.product-buttons a {
+	display
+	}
+.desktop.youtube-banner {
+	margin-bottom: 0px;
+	}
+#youtube-banner {
+	background: #fdb930;
+	}
+#youtube-banner p {
+	color: white;
+	margin-bottom: 10px;
+	}
+#youtube-banner div.product-buttons, #gas-relief div.product-buttons {
+	padding-bottom: 10px;
+	}
+#youtube-banner div.product-buttons a {
+	background: #ef5e31;
+	border: 3px solid #ef5e31;
+	display: block;
+	margin: 0 auto;
+	width: 60%;
+	}
+.desktop.gas-relief {
+	margin-bottom: 0px;
+	}
+#gas-relief {
+	background: #51b847;
+	}
+#gas-relief p {
+	color: white;
+	margin-bottom: 10px;
+	}
+#gas-relief div.product-buttons a {
+	background: #1e7248;
+	border: 3px solid #1e7248;
+	display: block;
+	margin: 0 auto;
+	width: 65%;
+	}
+.desktop.share-tweet {
+	margin-bottom: 0px;
+	}
+#share-tweet {
+	background: #7ec0f3;
+	padding-bottom: 10px;
+	}
+#share-tweet p {
+	color: white;
+	margin-bottom: 10px;
+	}
+#share-tweet div.product-buttons a {
+	display: block;
+	margin: 0 auto;
+	width: 65%;
+	}
+/*-----------------------MOBILE CSS-------------------------*/
+@media screen and (max-width: 510px) {
+	.points {
+		width: 20%;
+		line-height: 14px;
+		padding-bottom: 3px;
+		}
+	.product-info {
+		display: inline-block;
+		vertical-align: middle;
+		width: 45%;
+		}
+	.product-cta {
+		font-size: 15px;
+		margin-top: 10px;
+		}
+	.redeem, .learn-more {
+		display: block;
+		font-size: 14px;
+		margin: 0 auto;
+		margin-bottom: 5px;
+		width: 85%;
+		}
+	}
+@media screen and (min-width: 511px) and (max-width: 640px) {
+	.points {
+		line-height: 14px;
+		padding-bottom: 3px;
+		width: 18%;
+		}
+	.product-info {
+		display: inline-block;
+		vertical-align: middle;
+		width: 45%;
+		}
+	.product-cta {
+		font-size: 17px;
+		}
+	.redeem, .learn-more {
+		display: block;
+		font-size: 14px;
+		margin: 0 auto;
+		margin-bottom: 10px;
+		width: 75%;
+		}
+	}
+@media screen and (max-width: 640px) {
+	.full-mobile {
+		padding: 0px;
+		}
+	.nav-list {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		}
+	.nav-list a {
+		color: #149cd8;
+		font-size: 10.5px;
+		font-weight: bold;
+		max-width: 50px;
+		margin: 0 1%;
+		text-align: center;
+		text-decoration: none;
+		}
+	.logout-tablet {
+		display: none;
+		}
+	.points {
+		margin-left: 10px;
+		margin-top: 10px;
+		}
+	.hero-btn {
+		bottom: 7.5%;
+		left: 5%;
+		}
+	.expand {
+		width: 100% !important;
+		}
+	#right-side.login {
+		margin-top: 20px;
+		}
+	img.mobile {
+		display: inline-block;
+		width: 50%;
+		}
+	img.desktop.solo {
+		display: inline-block;
+		float: left;
+		width: 45%;
+		}
+	img.desktop {
+		display: none;
+		}
+	}
+@media screen and (max-width: 799px) {
+	.nav-list {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		}
+	.nav-list a {
+		max-width: 50px;
+		text-align: center;
+		text-decoration: none;
+		}
+	#main-wrap {
+		margin-top: 0px;
+		}
+	#profile-wrapper {
+		margin-bottom: 0px !important;
+		}
+	#earn-more, #redeem-now, #profile-image, #social-icons {
+		display: none;
+		}
+	#earn-more.login, #redeem-now.login {
+		display: inline-block !important;
+		}
+	#earn-more.login {
+		margin-bottom: 0px;
+		}
+	#redeem-now.login {
+		margin-top: 10px;
+		}
+	.profile-basics.desktop {
+		display: none;
+		}
+	.profile-basics.mobile {
+		display: inline-block;
+		height: 102px;
+		float: left;
+		font-size: 14px;
+		text-align: center;
+		width: 30%;
+		}
+	.profile-basics.mobile img {
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 3px;
+		margin-top: 15px;
+		}
+	.profile-basics.mobile a {
+		color: white;
+		font-size: 13px;
+		text-decoration: none;
+		}
+	#profile-info {
+		display: inline-block;
+		float: left;
+		width: 70%;
+		}
+	#profile-info #welcome {
+		color: white;
+		display: inline-block;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-top: 10px;
+		width: 60%;
+		}
+	#profile-info a {
+		color: white;
+		font-size: 14px;
+		text-decoration: none;
+		}
+	#welcome p {
+		font-size: 14px;
+		}
+	#point-history {
+		margin-bottom: 10px;
+		margin-left: 5px;
+		}
+	#point-history a {
+		background: none;
+		border: none;
+		color: white;
+		font-size: 13px;
+		float: none !important;
+		text-decoration: none;
+		}
+	#point-history text {
+		color: white;
+		margin-left: 5px;
+		margin-right: 5px;
+		}
+	.current {
+		border: none;
+		padding: 0px;
+		}
+	#write-review {
+		width: 100%;
+		}
+	#write-review div.product-buttons a {
+		width: 60%;
+		}
+	#sign-up {
+		width: 100%;
+		}
+	#invite-friends {
+		width: 100%;
+		}
+	#complete-now div.product-buttons a {
+		width: 100%;
+		}
+	.mobile.complete-now {
+		margin-right: 10px;
+		}
+	#youtube-banner {
+		width: 100%;
+		}
+	#youtube-banner div.product-buttons a {
+		background: #f16e45;
+		border: 3px solid #f16e45;
+		margin-bottom: 10px;
+		width: 50%;
+		}
+	#gas-relief {
+		background: #51b847;
+		width: 100%;
+		}
+	#gas-relief div.product-buttons a {
+		background: #1e7248;
+		border: 3px solid #1e7248;
+		margin-bottom: 10px;
+		width: 50%;
+		}
+	#share-tweet {
+		background: #7ec0f3;
+		width: 100%;
+		}
+	#share-tweet div.product-buttons a {
+		margin-bottom: 10px;
+		}
+	#content-wraper div.columns {
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+		}
+	#youtube-banner div.product-buttons a, #gas-relief div.product-buttons a, #share-tweet div.product-buttons a {
+		display: block !important;
+		float: none;
+		width: 70%;
+		}
+	#friends-share div.product-buttons a {
+		display: block !important;
+		margin: 10px auto;
+		width: 95%;
+		}
+	#friends-share .learn-more {
+		float: none!important;
+		}
+	#profile-wraper {
+		background: #139cd8;
+		}
+	}
+@media screen and (min-width: 640px) and (max-width: 750px) {
+	.redeem, .learn-more {
+		display: block;
+		margin: 0 auto;
+		width: 80%;
+		}
+	}
+@media screen and (max-width: 750px) {
+	.foot-links a {
+		font-size: 9px;
+	}
+}
+@media screen and (min-width: 751px) and (max-width: 799px) {
+	.redeem, .learn-more {
+		display: inline-block;
+		font-size: 13px;
+		padding: 0px 10px;
+		}
+	.redeem {
+		float: left;
+		margin-left: 10px;
+		padding: 0px 20px;
+		}
+	.learn-more {
+		float: right;
+		margin-right: 10px;
+		}
+	}
+@media screen and (min-width: 640px) and (max-width: 799px) {
+	.full {
+		padding: 0px;
+		}
+	.nav-list a {
+		margin: 0 3%;
+		max-width: 100px;
+		}
+	.profile-basics.mobile {
+		width: 15%;
+		height: 119px;
+		}
+	#profile-info {
+		width: 85%;
+		}
+	#profile-wraper {
+		margin-bottom: 0px;
+		}
+	img.desktop {
+		display: block;
+		}
+	img.mobile {
+		display: none;
+		}
+	#earn-more, #redeem-now {
+		display: block;
+		margin: 15px 0;
+		width: 100%;
+		}
+	#point-history {
+		margin-left: 5px;
+		}
+	a.mobile {
+		display: none;
+		}
+	#left-side {
+		float: left;
+		display: inline-block;
+		width: 45%;
+		}
+	#right-side {
+		display: inline-block;
+		width: 30%;
+		}
+	.logout-tablet {
+		display: inline-block;
+		margin-left: 12%;
+		margin-top: 10px;
+		vertical-align: top;
+		}
+	.product-cta {
+		font-size: 14px;
+		}
+	.redeem, .learn-more {
+		margin-bottom: 10px;
+		}
+	.points {
+		line-height: 14px;
+		padding-bottom: 3px;
+		}
+	.columns {
+		margin-bottom: 0px !important;
+		}
+	div.product-buttons a {
+		display: block;
+		}
+	#write-review .redeem, #submit-receipt .redeem, #daily-tweet .redeem, #symptoms .redeem, #friend-refer .redeem, #friends-share .redeem,
+	#sign-up .redeem, #complete-now .redeem, #follow-twitter .redeem, #like-facebook .redeem {
+		float: none;
+		}
+	.hero-btn {
+		bottom: 10%;
+		left: 5%;
+		}
+	}
+@media screen and (min-width: 800px) {
+	#divider {
+		display: none;
+		}
+	a.mobile {
+		display: none;
+		}	
+	}
+@media screen and (max-width: 1260px) {
+	#social-icons {
+		text-align: center;
+		}
+	#icons {
+		width: 100%;
+		}
+	}
+@media screen and (min-width: 800px) and (max-width: 1019px) {
+	.avatar {
+		margin-top: 15px !important;
+		}
+	#profile-options {
+		display: block;
+		margin: 10px 0px;
+		}
+	#profile-options a {
+		display: block;
+		margin: 0 auto;
+		}
+	}
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+	.product-cta {
+		font-size: 12px;
+		}
+	}
+@media screen and (min-width: 800px) and (max-width: 1237px) {
+	.left, .right {
+		width: 100%;
+		margin-bottom: 10px;
+		}
+	}
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+	.hero-btn {
+		bottom: 10%;
+		left: 6%;
+		}
+	}
+@media screen and (min-width: 801px) and (max-width: 1045px) {
+	#youtube-banner div.product-buttons a, #gas-relief div.product-buttons a, #share-tweet div.product-buttons a {
+		width: 90%;
+		}
+	}
+@media screen and (min-width: 1001px) and (max-width: 1350px) {
+	.hero-btn {
+		bottom: 15%;
+		left: 6%;
+		}
+	}
+@media screen and (min-width: 1001px) and (max-width: 1185px) {
+	.product-cta {
+		font-size:14px;
+		}
+	}
+@media screen and (min-width: 1185px) and (max-width: 1293px) {
+	.product-cta {
+		font-size: 16px;
+		}
+	}
+@media screen and (max-width: 1020px) {
+	.profile-basics.desktop {
+		text-align: center;
+		}
+	.avatar {
+		display: block;
+		position: relative;
+		margin: 0 auto;
+		}
+	.img-wrap {
+		margin-top: 10px;
+		}
+	#profile-options {
+		text-align: center;
+		width: 100%;
+		}
+	}
+@media screen and (min-width: 800px) and (max-width: 1185px) {
+	.redeem, .learn-more {
+		display: block;
+		margin: 0 auto;
+		width: 75%;
+		}
+	.redeem {
+		margin-bottom: 10px;
+		}
+	#write-review div.product-buttons a {
+		width: 50%;
+		}
+	#submit-receipt div.product-buttons a, #friend-refer div.product-buttons a {
+		width: 100%;
+		}
+	#symptoms div.product-buttons a {
+		width: 80%;
+		}
+	#complete-now div.product-buttons a {
+		width: 100%;
+		}
+	}
+@media screen and (min-width: 1021px) and (max-width: 1330px) {
+	#profile-options {
+		margin-top: 5px;
+		width: 55%;
+		}
+	#profile-options a {
+		display: block;
+		}
+	.avatar {
+		margin-top: 0px;
+		}
+	}
+/*-----------FINAL CODE----------*/
+#invite-friends div.product-buttons {
+	vertical-align: top;
+	padding-bottom: 10px;
+	}
+.invite-friends-input {
+	display: inline-block;
+	margin-left: 5px;
+	padding-top: 5px;
+	width: 30% !important;
+	}
+.invite-friends-input input {	
+	border-radius: 25px !important;
+	}
+#invite-friends a {
+	width: 25% !important;
+	}
+#invite-friends a.redeem {
+	display: inline-block;
+	background: #3460a1;
+	border: 3px solid #3460a1;
+	margin: 0px 5px 0px 5px;
+	padding-left: 17px;
+	padding-right: 17px;
+	}
+#invite-friends a.learn-more {
+	display: inline-block;
+	background: #149cd8;
+	border: 3px solid #149cd8;
+	margin: 0px 5px 0px 5px;
+	}
+
+@media screen and (max-width: 800px) {
+	.nav-list a {
+		padding: 0px;
+		}
+	}
+@media screen and (max-width: 360px) {
+	#left-side a.mobile, #point-history a.left, #point-history a.right {
+		font-size: 11px;
+		}
+	.nav-list a {
+		font-size: 10px !important;
+		margin: 0 0.5% !important;
+		}
+	}

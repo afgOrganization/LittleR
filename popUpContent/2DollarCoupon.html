@@ -1,0 +1,63 @@
+
+<div class="center pad">
+
+            <div class="productWrap clearfix">
+                <!-- Product Image -->
+                <img class="redeem-product-image" src="img/popupAssets/2-off.jpg" />
+                <!-- Product Title -->
+                <div class="redeem-information">
+                	<h2 class="productTitle">Little Remedies® $2 Off Coupon</h2>
+                	<!-- Producr Points -->
+                	<h3 class="productPoints">2,000 Points</h3>
+                
+                	<!-- Product Description -->
+                	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                	tempor incididunt ut labore et dolore magna aliqua.</p>
+                	<!-- Redeem Button -->
+                	<br />
+            		<a class="enterAddress" href="#">
+                		<img class="completeProfile" src="img/popupAssets/redeemBtn.jpg" />
+            		</a>
+                </div>
+            </div>
+                
+            
+    </div>
+
+     <img class="popBoxImg" src="img/closeX.png" />
+    
+
+    <!-- Close Popup -->
+
+    <script>
+
+        $('.btm_text, .popBoxImg').on('click', function(){
+            $('.overlay').fadeOut();
+        });
+
+        //Enter Address Popup 
+        $('.enterAddress').on('click', function(event){
+
+            event.preventDefault();
+
+            $('.overlay').hide();
+        
+            $.ajax('popUpContent/address.html', {
+                success: function (response) {
+                    $('.popBox').html(response).fadeIn();
+                    $('.overlay').fadeIn();
+                    return response;
+                },
+                error : function(request, errorType, errorMessage){
+                    alert('There was a problem loading the content. Please try again later.'); 
+                    //+ errorType + ' Message: ' + errorMessage
+                    return;
+
+                },
+                timeout : 20000 ,
+            });
+        
+        console.log('ajax btn clicked');
+        });
+
+    </script>

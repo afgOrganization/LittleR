@@ -1,0 +1,96 @@
+   
+    <div id="wrapper">
+    	
+    		<div id="fb_register">
+
+            	<a href="#">
+    			    <img class="fb_button" src="img/popupAssets/fbRegister.png" />
+                </a>     
+
+    				<div class="user_agreement">
+        				<input type="checkbox" name="user_agreement" value="agree" /> <span class="fb_terms">Accept Terms & Conditions</span><br />
+                        <p class="required popup">Required field.</p>
+        			</div>
+                
+    		</div>
+        
+			<form id="register_form" method="post" name="register_form" action="#" class="">
+            	<div style="padding: 15px 0;">
+    				<text>OR Register through email:</text>
+                    <br />
+                </div>
+                
+                <div class="registrationFormWrap">
+                    
+    				<input class="input_field" type="text" name="first_name" placeholder="First Name"/>
+           			<p class="required popup">Required field.</p>
+    				<input class="input_field" type="text" name="last_name" placeholder="Last Name"/>
+					<p class="required popup">Required field.</p>
+    				<input class="input_field" type="email" name="email" placeholder="Email"/>
+              		<p class="required popup">Required field.</p>
+    				<input class="input_field" type="password" name="password" placeholder="Password" />
+            		<p class="required popup">Required field.</p>
+    				<input class="input_field" type="password" name="pass_confirm" placeholder="Confirm Password" />
+					<p class="required popup">Required field.</p>
+    			    <div id="captcha" class="captcha_btn">CAPTCHA</div>
+    				<input class="input_field" id="confirm-captcha" type="text" name="captcha_confirm" placeholder="Confirm Captcha"/>
+                	<p class="required popup">Required field.</p>
+                    <div class="dBlock">
+        			     <input type="checkbox" name="user_agreement" value="agree" /> Accept Terms & Conditions<br />
+                         <p class="required popup">Required field.</p>
+        		    </div>
+                    <br />
+                    <div class="dBlock">
+                        <a href="#">
+                	       <img class="thankYou" src="img/popupAssets/registerBtn.jpg">
+                        </a>
+                    </div>
+            	
+            </form>
+
+                    <div class="dBlock">
+                         <a id="closeWindow" class="btm_text dBlock" href="#">cancel</a>
+                    </div>
+
+            </div>
+    </div>
+
+    <img class="popBoxImg" src="img/closeX.png" />
+    
+
+    <!-- Close Popup -->
+
+    <script>
+        $('.btm_text, .popBoxImg').on('click', function(){
+            $('.overlay').fadeOut();
+        });
+  
+
+    //Thank You Pop Up (Pops  Up After Registering) 
+    $('.thankYou').on('click', function(event){
+
+        event.preventDefault();
+
+        $('.overlay').hide();
+        
+        $.ajax('popUpContent/thankyou.html', {
+            success: function (response) {
+                $('.popBox').html(response).fadeIn();
+                $('.overlay').fadeIn();
+                return response;
+                
+
+            },
+            error : function(request, errorType, errorMessage){
+                alert('There was a problem loading the content. Pleas try again later.'); 
+                //+ errorType + ' Message: ' + errorMessage
+                return;
+
+            },
+            timeout : 20000 ,
+        });
+        
+        console.log('ajax btn clicked');
+    });  
+
+    </script>

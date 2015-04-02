@@ -1,0 +1,65 @@
+
+<div class="center pad">
+
+            <div class="productWrap clearfix">
+                <!-- Product Image -->
+                <img class="redeem-product-image" src="img/popupAssets/5-off.jpg" />
+                <!-- Product Title -->
+                <div class="redeem-information">
+                	<h2 class="productTitle">Congratulations!</h2>
+                	<!-- Producr Points -->
+                	<!-- Product Description -->
+                	<p>You redeemed Little Remedies&reg<br />
+                	$5 Off Coupon for 4,500 points!</p>
+                	<!-- Redeem Button -->
+                	<br />
+            		<div class="share-social-redeem">
+    					<p class="min">Share this news with your friends</p>
+                		<img class="img-min" src="img/facebook_icon.png">
+                		<img class="img-min" src="img/twitter_icon.png">
+                		<img class="img-min" src="img/pinterest_icon.png">
+    				</div>
+                </div>
+                
+            </div>
+                
+            
+    </div>
+
+     <img class="popBoxImg" src="img/closeX.png" />
+    
+
+    <!-- Close Popup -->
+
+    <script>
+
+        $('.btm_text, .popBoxImg').on('click', function(){
+            $('.overlay').fadeOut();
+        });
+
+        //Enter Address Popup 
+        $('.enterAddress').on('click', function(event){
+
+            event.preventDefault();
+
+            $('.overlay').hide();
+        
+            $.ajax('popUpContent/address.html', {
+                success: function (response) {
+                    $('.popBox').html(response).fadeIn();
+                    $('.overlay').fadeIn();
+                    return response;
+                },
+                error : function(request, errorType, errorMessage){
+                    alert('There was a problem loading the content. Please try again later.'); 
+                    //+ errorType + ' Message: ' + errorMessage
+                    return;
+
+                },
+                timeout : 20000 ,
+            });
+        
+        console.log('ajax btn clicked');
+        });
+
+    </script>
