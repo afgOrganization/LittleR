@@ -1240,3 +1240,19 @@ img.desktop {
 #content-wraper {
 	width: 70%;
 }
+
+/* Sign Up section */
+#wrapper.sign-up-now {
+	background-color: #86c3f3;
+	border-radius: 0;
+}
+#wrapper.sign-up-now ~ .popBox {
+		-webkit-border-radius:0;
+		-moz-border-radius:0;
+		border-radius:0;
+}
+
+#wrapper.sign-up-now h2 {
+	color: white;
+	font-size: 2.3em;
+}
