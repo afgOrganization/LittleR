@@ -1241,6 +1241,8 @@ img.desktop {
 #content-wraper {
 	width: 70%;
 	float: left;
+	color: #139cd8;
+	font-weight: bold;
 }
 
 /* Sign Up section */
