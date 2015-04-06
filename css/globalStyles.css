@@ -1282,7 +1282,7 @@ img.desktop {
 		width: 49%;
 		display: inline-block;
 	}
-	.input_field.col1 {
+	.input_field.col1, .captcha_btn.col1 {
 		float: left;
 	}
 	.input_field.col2 {
@@ -1291,4 +1291,9 @@ img.desktop {
 	.required {
 		display: none;
 	}
+
+	.thankYou {
+		margin-top: 1em;
+	}
+	
 }
