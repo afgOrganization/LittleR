@@ -70,4 +70,43 @@
 	
     </form>
 
+	<img class="popBoxImg" src="img/closeX.png" />
+
 </div>
+    
+<!-- Close Popup -->
+
+<script>
+    $('.btm_text, .popBoxImg').on('click', function(){
+        $('.overlay').fadeOut();
+    });
+
+
+//Thank You Pop Up (Pops  Up After Registering) 
+$('.thankYou').on('click', function(event){
+
+    event.preventDefault();
+
+    $('.overlay').hide();
+    
+    $.ajax('popUpContent/thankyou.html', {
+        success: function (response) {
+            $('.popBox').html(response).fadeIn();
+            $('.overlay').fadeIn();
+            return response;
+            
+
+        },
+        error : function(request, errorType, errorMessage){
+            alert('There was a problem loading the content. Pleas try again later.'); 
+            //+ errorType + ' Message: ' + errorMessage
+            return;
+
+        },
+        timeout : 20000 ,
+    });
+    
+    console.log('ajax btn clicked');
+});  
+
+</script>
