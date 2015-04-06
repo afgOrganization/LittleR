@@ -1237,3 +1237,6 @@ img.desktop {
 	}
 
 /* Content-wrapper */
+#content-wrapper {
+	width: 70%;
+}
