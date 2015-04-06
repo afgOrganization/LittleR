@@ -77,9 +77,8 @@
 .fb_terms {
 	font-size: .8em; 
 	color: #fff;
-	/* add bold to font */
-	font-weight: bold;
 }
+
 /* Remove shadow, fix padding and font-weight on inner text */
 #wrapper input[type="text"], #wrapper input[type="email"], #wrapper input[type="password"] {
 	-webkit-border-radius: 20px;

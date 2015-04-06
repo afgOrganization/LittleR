@@ -1245,6 +1245,8 @@ img.desktop {
 #wrapper.sign-up-now {
 	background-color: #86c3f3;
 	border-radius: 0;
+	font-weight: bold;
+
 }
 /*#wrapper.sign-up-now ~ .popBox {
 	-webkit-border-radius:0;
@@ -1260,6 +1262,6 @@ img.desktop {
 }
 #wrapper .sign-up-terms, #wrapper text {
 	color: rgba(117, 117, 117, 0.97);
-	font-weight: bold;
+	/*font-weight: bold;*/
 	display: inline-block;
 }
