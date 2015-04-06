@@ -80,11 +80,13 @@
 	/* add bold to font */
 	font-weight: bold;
 }
+/* Remove shadow, fix padding and font-weight on inner text */
 #wrapper input[type="text"], #wrapper input[type="email"], #wrapper input[type="password"] {
-	box-shadow: 0px 2px 3px #888888;
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
+	padding:1em;
+	font-weight: bold;
 }
 /* Add styling for Accept Terms & Conditions text */
 #register_form {
@@ -139,6 +141,7 @@ input [type="text"] {
 	width: 200px;
 	/* add magin to bottom */
 	margin-bottom: 25px;
+	margin-top: -25px;
 }
 h2.thanks {
 	font-family: Colette;
