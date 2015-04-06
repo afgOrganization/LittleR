@@ -136,6 +136,8 @@ bold, strong {
 #profile-wraper {
 	float: right;
 	overflow: hidden;
+	/* Added width to profile-wrapper after removing class */
+	width:25%;
 	}
 .profile-basics {
 	background: #139cd8;
