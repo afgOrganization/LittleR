@@ -1258,3 +1258,8 @@ img.desktop {
 	font-weight: bold;
 	padding: 12px;
 }
+#wrapper .sign-up-terms, #wrapper text {
+	color: rgba(117, 117, 117, 0.97);
+	font-weight: bold;
+	display: inline-block;
+}

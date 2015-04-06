@@ -86,6 +86,7 @@
 	-moz-border-radius: 20px;
 	border-radius: 20px;
 }
+/* Add styling for Accept Terms & Conditions text */
 #register_form {
 	font-size: .8em;
 }
