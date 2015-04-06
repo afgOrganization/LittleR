@@ -1246,6 +1246,8 @@ img.desktop {
 	background-color: #86c3f3;
 	border-radius: 0;
 	font-weight: bold;
+	width: 25%;
+	float: right;
 
 }
 /*#wrapper.sign-up-now ~ .popBox {
