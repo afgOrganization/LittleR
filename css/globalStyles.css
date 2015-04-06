@@ -1249,6 +1249,7 @@ img.desktop {
 	font-weight: bold;
 	width: 25%;
 	float: right;
+	position: relative;
 
 }
 
