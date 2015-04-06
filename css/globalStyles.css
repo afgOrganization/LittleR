@@ -1246,13 +1246,14 @@ img.desktop {
 	background-color: #86c3f3;
 	border-radius: 0;
 }
-#wrapper.sign-up-now ~ .popBox {
-		-webkit-border-radius:0;
-		-moz-border-radius:0;
-		border-radius:0;
-}
+/*#wrapper.sign-up-now ~ .popBox {
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border-radius:0;
+}*/
 
 #wrapper.sign-up-now h2 {
 	color: white;
 	font-size: 2.3em;
+	padding: 12px;
 }
