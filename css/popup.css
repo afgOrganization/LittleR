@@ -71,7 +71,8 @@
 }
 #fb_register {
     text-align: center; 
-    background: #86c3f3;
+    /* change background color to match facebook logo color*/
+    background: rgba(31, 68, 138, 0.9);
 }
 .fb_terms {
 	font-size: .8em; 
