@@ -6,7 +6,7 @@
 
 		$('.overlay').hide();
 		
-		$.ajax('popUpContent/registration.html', {
+		$.ajax('popUpContent/signUp.html', {
 			success: function (response) {
 				$('.popBox').html(response).fadeIn();
 				$('.overlay').fadeIn();
