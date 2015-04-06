@@ -79,13 +79,14 @@
 	color: #fff;
 }
 
-/* Remove shadow, fix padding and font-weight on inner text */
+/* Remove shadow, fix padding, margin and font-weight on inner text */
 #wrapper input[type="text"], #wrapper input[type="email"], #wrapper input[type="password"] {
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
-	padding:1em;
+	/*padding:1em;*/
 	font-weight: bold;
+	margin-bottom:.35em;
 }
 /* Add styling for Accept Terms & Conditions text */
 #register_form {

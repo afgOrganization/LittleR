@@ -1246,7 +1246,6 @@ img.desktop {
 #wrapper.sign-up-now {
 	background-color: #86c3f3;
 	border-radius: 0;
-	font-weight: bold;
 	width: 25%;
 	float: right;
 	position: relative;
@@ -1261,6 +1260,7 @@ img.desktop {
 }
 #wrapper .sign-up-terms, #wrapper text {
 	color: rgba(117, 117, 117, 0.97);
-	/*font-weight: bold;*/
+	font-weight: bold;
 	display: inline-block;
+	font-size: .9em;
 }
