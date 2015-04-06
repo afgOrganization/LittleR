@@ -664,7 +664,7 @@ img.desktop {
 	color: white;
 	}
 #complete-now div.product-buttons a {
-	display
+	/*display*/
 	}
 .desktop.youtube-banner {
 	margin-bottom: 0px;
@@ -1244,6 +1244,11 @@ img.desktop {
 }
 
 /* Sign Up section */
+@media screen and (max-width: 840px) {
+	#wrapper.sign-up-now {
+		width: 100%;
+	}
+}
 #wrapper.sign-up-now {
 	background-color: #86c3f3;
 	border-radius: 0;
