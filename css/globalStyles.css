@@ -90,9 +90,7 @@ bold, strong {
 	font-size: 0.7em;
 	font-weight: bold;
 	}
-.required.popup {
-	margin-bottom: 15px;
-	}
+
 .required.popup.inline {
 	display: inline;
 	float: left;

@@ -86,7 +86,7 @@
 	border-radius: 20px;
 	/*padding:1em;*/
 	font-weight: bold;
-	margin-bottom:.35em;
+	margin-bottom:.4em;
 }
 /* Add styling for Accept Terms & Conditions text */
 #register_form {
@@ -114,7 +114,7 @@ input [type="text"] {
 	margin: 10px auto 10px auto;
 }
 .registrationFormWrap {
-	max-width: 70%; 
+	max-width: 85%; 
 	margin: 0 auto;
 }
 #register {
