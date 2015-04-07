@@ -1270,6 +1270,9 @@ img.desktop {
 	display: inline-block;
 	font-size: .9em;
 }
+#gas-relief, #youtube-banner {
+	padding-bottom: 10px;
+}
 @media screen and (max-width: 840px) {
 	#wrapper.sign-up-now, #content-wraper {
 		width: 100%;
