@@ -1273,11 +1273,21 @@ img.desktop {
 #youtube-banner {
 	padding-bottom: 10px;
 }
-#gas-relief p{
+/*#gas-relief p{
 	font-size: 1em;
+}*/
+.product-info {
+	min-height: 120px;
 }
-#gas-relief {
-	padding-bottom: 3px;
+@media screen and (max-width: 1295px) {
+	.product-info {
+		min-height: 100px;
+	}
+}
+@media screen and (max-width: 1180px) {
+	.product-info {
+		min-height: 80px;
+	}
 }
 @media screen and (max-width: 840px) {
 	#wrapper.sign-up-now, #content-wraper {
