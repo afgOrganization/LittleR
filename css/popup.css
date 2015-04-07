@@ -110,7 +110,7 @@ input [type="text"] {
 	font-family: sans-serif;
 	font-weight: 200;
 	margin-bottom: 30px;
-	width: 150px;
+	width: 140px;
 	margin: 10px auto 10px auto;
 }
 .registrationFormWrap {
@@ -131,7 +131,7 @@ input [type="text"] {
 }
 .dBlock {
 	display: block;
-	width: 100%;
+	/*width: 100%;*/
 }
 
 /* Registration Thankyou.html Styles */

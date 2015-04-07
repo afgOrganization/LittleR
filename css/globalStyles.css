@@ -1299,6 +1299,7 @@ img.desktop {
 	.input_field.col1, .input_field.col2 {
 		width: 49%;
 		display: inline-block;
+		float: right;
 	}
 	.input_field.col1, .captcha_btn.col1 {
 		float: left;
@@ -1310,10 +1311,10 @@ img.desktop {
 		display: none;
 	}
 	.dBlock.col2 *{
-		padding-top: 1.8em;
+		/*padding-top: 1.8em;*/
 	}
 	.thankYou {
-		margin-top: -4em;
+		margin-top: 1em;
 		margin-bottom: 0;
 	}
 	#wrapper input[type="text"], #wrapper input[type="email"], #wrapper input[type="password"] {
