@@ -1291,9 +1291,14 @@ img.desktop {
 	.required {
 		display: none;
 	}
-
-	.thankYou {
-		margin-top: 1em;
+	.dBlock.col2 *{
+		padding-top: 1.8em;
 	}
-	
+	.thankYou {
+		margin-top: -4em;
+		margin-bottom: 0;
+	}
+	#wrapper input[type="text"], #wrapper input[type="email"], #wrapper input[type="password"] {
+		margin-bottom: .6em;
+	}
 }
