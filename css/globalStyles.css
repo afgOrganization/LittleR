@@ -1273,12 +1273,11 @@ img.desktop {
 #youtube-banner {
 	padding-bottom: 10px;
 }
-/*#gas-relief p{
-	font-size: 1em;
-}*/
+
 .product-info {
 	min-height: 120px;
 }
+/* Heights for the divs below the bottom 3 images*/
 @media screen and (max-width: 1295px) {
 	.product-info {
 		min-height: 100px;
