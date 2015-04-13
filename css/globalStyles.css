@@ -1333,10 +1333,6 @@ img.desktop {
 	#wrapper.sign-up-now, #content-wraper-2 {
 		width: 100%;
 	}
-	#content-wraper-2 {
-		margin-left: 1.2em;
-		margin-right: 1.2em; 
-	}
 	.input_field.col1, .input_field.col2 {
 		width: 49%;
 		display: inline-block;
@@ -1357,9 +1353,12 @@ img.desktop {
 	.required-field {
 		display: none;
 	}
+	.dBlock-2 {
+		clear: both;
+	}
 	.dBlock-2.col2 {
 		padding-right: 1em;
-		width: 90%;
+		width: 50%;
 		float: right;
 		margin-bottom: 3em;
 	}
