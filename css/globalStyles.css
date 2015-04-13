@@ -1287,7 +1287,7 @@ img.desktop {
 	font-weight: bold;
 	padding: 14px;
 }
-#wrapper .sign-up-terms, #wrapper text {
+.sign-up-now .sign-up-terms, .sign-up-now text {
 	color: rgba(117, 117, 117, 0.97);
 	font-weight: bold;
 	display: inline-block;
@@ -1371,7 +1371,7 @@ img.desktop {
 		margin-bottom: 0;
 		clear:both;
 	}
-	#wrapper input[type="text"], #wrapper input[type="email"], #wrapper input[type="password"] {
+	.sign-up-now input[type="text"], .sign-up-now input[type="email"], .sign-up-now input[type="password"] {
 		margin-bottom: .6em;
 	}
 }
