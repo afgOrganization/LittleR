@@ -1340,12 +1340,13 @@ img.desktop {
 	.required-field {
 		display: none;
 	}
-	.dBlock.col2 {
+	.dBlock-2.col2 {
 		padding-right: 1em;
 		width: 90%;
 		float: right;
+		margin-bottom: 3em;
 	}
-	.dBlock.col2 input[type="checkbox"] {
+	.dBlock-2.col2 input[type="checkbox"] {
 		display: inline-block;
 	}
 	.thankYou {
@@ -1358,7 +1359,7 @@ img.desktop {
 	}
 }
 @media screen and (max-width:640px) {
-	.dBlock.col2 *{
+	.dBlock-2.col2 *{
 		margin-top: -3.5em;
 		padding-left: 1em;
 		width: 45%;
