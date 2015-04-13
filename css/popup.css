@@ -138,9 +138,6 @@ input [type="text"] {
 .thankYou {
 	cursor: pointer;
 	width: 200px;
-	/* add magin to bottom */
-	margin-bottom: 25px;
-	margin-top: -25px;
 }
 h2.thanks {
 	font-family: Colette;
@@ -310,4 +307,11 @@ img.min-alt {
 }
 .dBlock-2 {
 	display: block;
+}
+.thankYou-signUp {
+	cursor: pointer;
+	width: 200px;
+	/* add magin to bottom */
+	margin-bottom: 25px;
+	margin-top: -25px;
 }
