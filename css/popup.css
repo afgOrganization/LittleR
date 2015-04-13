@@ -113,7 +113,7 @@ input [type="text"] {
 	margin: 10px auto 10px auto;
 }
 .registrationFormWrap {
-	max-width: 85%; 
+	max-width: 70%; 
 	margin: 0 auto;
 }
 #register {
@@ -304,5 +304,8 @@ img.min-alt {
     text-align: center; 
     background: rgba(33, 77, 139, 0.82);
 } 
-
+.registrationFormWrap-2 {
+	max-width: 85%; 
+	margin: 0 auto;
+}
 
