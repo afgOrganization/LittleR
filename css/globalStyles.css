@@ -1296,7 +1296,6 @@ img.desktop {
 .banner-pad {
 	padding-bottom: 10px;
 }
-
 .item-info {
 	min-height: 120px;
 }
@@ -1353,7 +1352,7 @@ img.desktop {
 	.required-field {
 		display: none;
 	}
-	.dBlock-2 {
+	.clear {
 		clear: both;
 	}
 	.dBlock-2.col2 {
@@ -1375,10 +1374,30 @@ img.desktop {
 	}
 }
 @media screen and (max-width:640px) {
-	.dBlock-2.col2 *{
+	.dBlock-2.col2 input[type="checkbox"] {
+		margin-left: -2em;
+	}
+	.clear-right {
+		clear: right;
+	}
+}
+
+@media screen and (max-width: 414px) {
+	.dBlock-2.col2 input[type="checkbox"] {
+		margin-right: 0em;
+	}
+}
+@media screen and (max-width: 375px) {
+	.dBlock-2.col2 input[type="checkbox"] {
+		margin-right: -2em;
+	}
+}
+@media screen and (max-width: 320px) {
+	.dBlock-2.col2 input[type="checkbox"] {
+		padding-right: 2em;
+	}
+	.dBlock-2.col2 {
 		margin-top: -3.5em;
-		padding-left: 1em;
-		width: 45%;
-		float: right;
+		padding-left: 1.4em;
 	}
 }
