@@ -136,8 +136,6 @@ bold, strong {
 #profile-wraper {
 	float: right;
 	overflow: hidden;
-	/* Added width to profile-wrapper after removing class */
-	width:25%;
 	}
 .profile-basics {
 	background: #139cd8;
@@ -1284,6 +1282,9 @@ img.desktop {
 .product-info {
 	min-height: 120px;
 }
+#profile-wraper.profile-container {
+	width:25%;
+	}
 .required-field.popup:last-child {
 	margin-top: -1em;
 	margin-bottom:1em;
