@@ -952,6 +952,10 @@ img.desktop {
 		margin-bottom: 10px;
 		padding-bottom: 10px;
 		}
+	#content-wraper-2 div.columns {
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+		}
 	#youtube-banner div.product-buttons a, #gas-relief div.product-buttons a, #share-tweet div.product-buttons a {
 		display: block !important;
 		float: none;
@@ -1237,14 +1241,17 @@ img.desktop {
 		}
 	}
 
-/* Content-wrapper */
-#content-wraper {
+/* New Content-wrapper */
+#content-wraper-2 div.columns {
+	margin-bottom: 15px;
+	}
+#content-wraper-2 {
 	width: 70%;
 	float: left;
 	color: #139cd8;
 	font-weight: bold;
 }
-#content-wraper p {
+#content-wraper-2 p {
 	margin-bottom: 1em;
 }
 /* Sign Up section */
@@ -1290,10 +1297,10 @@ img.desktop {
 }
 
 @media screen and (max-width: 840px) {
-	#wrapper.sign-up-now, #content-wraper {
+	#wrapper.sign-up-now, #content-wraper-2 {
 		width: 100%;
 	}
-	#content-wraper {
+	#content-wraper-2 {
 		margin-left: 1.2em;
 		margin-right: 1.2em; 
 	}
