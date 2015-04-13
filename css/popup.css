@@ -130,7 +130,7 @@ input [type="text"] {
 }
 .dBlock {
 	display: block;
-	/*width: 100%;*/
+	width: 100%;
 }
 
 /* Registration Thankyou.html Styles */
@@ -308,4 +308,6 @@ img.min-alt {
 	max-width: 85%; 
 	margin: 0 auto;
 }
-
+.dBlock-2 {
+	display: block;
+}
