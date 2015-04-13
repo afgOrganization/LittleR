@@ -952,6 +952,7 @@ img.desktop {
 		margin-bottom: 10px;
 		padding-bottom: 10px;
 		}
+		/* Duplicate above #content-wraper for new SignUp pages*/
 	#content-wraper-2 div.columns {
 		margin-bottom: 10px;
 		padding-bottom: 10px;
@@ -1241,7 +1242,7 @@ img.desktop {
 		}
 	}
 
-/* New Content-wrapper */
+/* Duplicated Content-wrapper */
 #content-wraper-2 div.columns {
 	margin-bottom: 15px;
 	}
