@@ -728,6 +728,18 @@ img.desktop {
 		vertical-align: middle;
 		width: 45%;
 		}
+	.product-info {
+		display: inline-block;
+		vertical-align: middle;
+		width: 45%;
+		}
+	/* Add Duplicate of .product-info below for SignUp pages*/
+	.item-info {
+		display: inline-block;
+		vertical-align: middle;
+		width: 45%;
+		}
+
 	.product-cta {
 		font-size: 15px;
 		margin-top: 10px;
@@ -747,6 +759,12 @@ img.desktop {
 		width: 18%;
 		}
 	.product-info {
+		display: inline-block;
+		vertical-align: middle;
+		width: 45%;
+		}
+	/* Add Duplicate of .product-info below for SignUp pages*/
+	.item-info {
 		display: inline-block;
 		vertical-align: middle;
 		width: 45%;
@@ -1239,7 +1257,7 @@ img.desktop {
 		}
 	}
 
-/* Duplicated Content-wrapper */
+/* New Styles for SignUp V1 & V2 */
 #content-wraper-2 div.columns {
 	margin-bottom: 15px;
 	}
@@ -1279,7 +1297,7 @@ img.desktop {
 	padding-bottom: 10px;
 }
 
-.product-info {
+.item-info {
 	min-height: 120px;
 }
 #profile-wraper.profile-container {
@@ -1301,12 +1319,12 @@ img.desktop {
 }
 /* Heights for the divs below the bottom 3 images*/
 @media screen and (max-width: 1295px) {
-	.product-info {
+	.item-info {
 		min-height: 100px;
 	}
 }
 @media screen and (max-width: 1180px) {
-	.product-info {
+	.item-info {
 		min-height: 80px;
 	}
 }
@@ -1336,7 +1354,6 @@ img.desktop {
 	.required {
 		display: none;
 	}
-	/* Add Duplicate of .required */
 	.required-field {
 		display: none;
 	}
