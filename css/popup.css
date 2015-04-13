@@ -61,6 +61,7 @@
 .fb_button {
     width: 209px;
     margin-top: 20px;
+    background:url(../img/facebook_register.jpg) no-repeat;
     color: white;
     border: none;
     font-size: 0.8em;
