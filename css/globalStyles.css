@@ -1398,9 +1398,6 @@ img.desktop {
 	.dBlock-2.col2 input[type="checkbox"] {
 		margin-left: -2em;
 	}
-	.dBlock-2.col2 {
-		/*margin-bottom: 3em;*/
-	}
 	.clear-right {
 		clear: right;
 	}
@@ -1412,6 +1409,10 @@ img.desktop {
 	}
 }
 @media screen and (max-width: 375px) {
+	.required-field.popup.terms {
+		margin-bottom: 0px;
+		margin-top: 5px;
+	}
 	
 	.dBlock-2.col2 span.sign-up-terms {
 		font-size: .8em;
