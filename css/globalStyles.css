@@ -1301,10 +1301,13 @@ img.desktop {
 }
 #profile-wraper.profile-container {
 	width:25%;
-	}
-.required-field.popup:last-child {
+}
+.required-field.popup {
 	margin-top: 5px;
-	margin-bottom:20px;
+	margin-bottom: 5px;
+}
+.required-field.popup.terms {
+	margin-bottom: 20px;
 }
 .required-field.popup.inline {
 	display: inline-block;
@@ -1337,11 +1340,6 @@ img.desktop {
 	#wrapper.sign-up-now, #content-wraper-2 {
 		width: 100%;
 	}
-	.input_field.col1, .input_field.col2 {
-		width: 49%;
-		display: inline-block;
-		float: right;
-	}
 	.input_field.col1, .captcha_btn.col1 {
 		float: left;
 	}
@@ -1351,11 +1349,24 @@ img.desktop {
 	.input_field.col2 {
 		float: right;
 	}
-	.required {
-		display: none;
+	.required-field.popup {
+		margin-bottom: 1em;
 	}
-	.required-field {
-		display: none;
+	.required-field.popup.terms {
+		margin-bottom: 0px;
+		margin-top: -5px;
+	}
+	.halfField {
+		width: 49%!important;
+	}
+	.halfLeft {
+		float: left;
+	}
+	.halfRight {
+		float: right;
+	}
+	.halfField input {
+		width: 100%;
 	}
 	.clear {
 		clear: both;
