@@ -1307,7 +1307,7 @@ img.desktop {
 	margin-bottom:20px;
 }
 .required-field.popup.inline {
-	display: inline;
+	display: inline-block;
 	float: left;
 	margin-right: 50px;
 	}	
@@ -1326,6 +1326,11 @@ img.desktop {
 	.item-info {
 		min-height: 80px;
 	}
+}
+@media screen and (max-width: 1024px) {
+	.dBlock-2.col2 input[type="checkbox"] {
+		margin-bottom: 2em;
+	}	
 }
 
 @media screen and (max-width: 840px) {
@@ -1411,4 +1416,8 @@ img.desktop {
 	.dBlock-2.col2 span.sign-up-terms {
 		font-size: .6em !important;
 	}
+	.dBlock-2.col2 input[type="checkbox"] {
+		margin-bottom: 0em;
+	}	
+
 }
